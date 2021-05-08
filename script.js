@@ -1,3 +1,4 @@
+'use strict';
 // @ts-check
 // let res = prompt("Сколько тебе лет");
 // alert(`Тебе ${res}лет`)
@@ -69,3 +70,15 @@
 //     }
 // }
 // obj.bar.baz()
+
+// function sayHi(){
+// 	alert('Hi');
+// 	sayHi.count++;
+// }
+// sayHi.count = 0;
+// sayHi()
+// sayHi()
+// console.log(sayHi.count)
+
+
+
