@@ -15,3 +15,13 @@ const pow = (x, y) => {
 };
 
 console.log(pow(5, 3));
+
+
+function howNumbers(n) {
+	if (n < 1) return 0;
+	n /= 10;
+	return 1 + howNumbers(n);
+}
+
+
+console.log(howNumbers(222));
